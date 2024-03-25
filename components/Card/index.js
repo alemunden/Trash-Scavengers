@@ -5,7 +5,7 @@ export default function Card({header}) {
         <>
         <div className={styles.cardContainer}>
             <div className={styles.cardHeaderContainer}>
-                <h1>{header}</h1>
+                <h1 className={styles.cardHeader}>{header}</h1>
             </div>
             <div className={styles.cardInnerContainer}></div>
         </div>
