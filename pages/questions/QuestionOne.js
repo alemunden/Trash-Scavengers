@@ -8,6 +8,8 @@ export default function QuestionOne() {
         setData("Correct Answer!")
     }
 
+    let points = 0
+
     return(
         <>
             <AnswerOne questionToAnswer={data}/>

@@ -9,17 +9,7 @@ import QuestionFour from "./questions/QuestionFour";
 export default function Home() {
   return (
       <main>
-        <p>What is the easiest to recycle?</p>
-        <ol>
-          <li>Aluminum Cans</li>
-          <li>Plastic Bags</li>
-          <li>Glass</li>
-          <li>Paper</li>
-        </ol>
-        <QuestionOne/>
-        <QuestionTwo/>
-        <QuestionThree/>
-        <QuestionFour/>
+        <button><a href='/Quiz'>Quiz</a></button>
       </main>
   );
 }
