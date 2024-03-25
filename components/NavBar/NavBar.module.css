@@ -1,0 +1,20 @@
+.navBarContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0.5rem;
+}
+
+.navBarItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.navBarImage {
+    align-self: center;
+}
+
+.navBarLabel {
+    font-size: 0.5rem;
+}
