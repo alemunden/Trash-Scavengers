@@ -51,12 +51,12 @@ li {
     border: 1px solid lightgray;
 }
 
-.liHover:hover {
+.li-hover:hover {
     background-color: #d8d8d8;
     columns: #fff;
 }
 
-.liSelected {
+.li-selected {
     color: #fff;
     background-color: #000925;
 }

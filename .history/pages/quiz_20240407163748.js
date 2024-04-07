@@ -82,8 +82,6 @@ export default function Quiz() {
                     <p>Total questions: <span>{questions.length}</span></p>
                     <p>Total score: <span>{result.score}</span></p>
                     <p>Correct answers: <span>{result.correctAnswers}</span></p>
-                    <p>Wrong answers: <span>{result.wrongAnswers}</span></p>
-                    <button onClick={()=> window.location.reload()}>Restart</button>
                 </div>
                 )}
             </div>

@@ -45,13 +45,6 @@ export default function Quiz() {
             wrongAnswers: prev.wrongAnswers + 1
         }
     );
-    if (activeQuestion !== questions.length - 1) {
-        setActiveQuestion((prev) => prev + 1)
-    } else {
-        setActiveQuestion(0)
-        setShowResult(true)
-    }
-    setChecked(false)
     };
 
     return(
@@ -75,17 +68,7 @@ export default function Quiz() {
                         </li>
                     ))}
                     {checked ? (<button onClick={nextQuestion} className={styles.btn}>{activeQuestion === question.length - 1 ? 'Finish' : 'Next'}</button>) : (<button onClick={nextQuestion} disabled className={styles.btnDisabled}>{''}{activeQuestion === question.length - 1 ? 'Finish' : 'Next'}</button>)}
-                </div>) : (
-                <div className={styles.quizContainer}>
-                    <h3>Results</h3>
-                    <h3>Overall {(result.score /25) * 100}%</h3>
-                    <p>Total questions: <span>{questions.length}</span></p>
-                    <p>Total score: <span>{result.score}</span></p>
-                    <p>Correct answers: <span>{result.correctAnswers}</span></p>
-                    <p>Wrong answers: <span>{result.wrongAnswers}</span></p>
-                    <button onClick={()=> window.location.reload()}>Restart</button>
-                </div>
-                )}
+                </div>) : (<div className={styles.quizContainer}></div>)}
             </div>
         </div>
     )

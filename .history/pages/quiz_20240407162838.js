@@ -29,30 +29,7 @@ export default function Quiz() {
             setSelectedAnswer(false)
             console.log('false')
         }
-    };
-
-    // calculate score and increment to next question
-    const nextQuestion = () => {
-        setSelectedAnswerIndex(null)
-        setResult((prev) => 
-        selectedAnswer ?
-        {
-            ...prev,
-            score: prev.score + 5,
-            correctAnswers: prev.correctAnswers + 1
-        } : {
-            ...prev,
-            wrongAnswers: prev.wrongAnswers + 1
-        }
-    );
-    if (activeQuestion !== questions.length - 1) {
-        setActiveQuestion((prev) => prev + 1)
-    } else {
-        setActiveQuestion(0)
-        setShowResult(true)
     }
-    setChecked(false)
-    };
 
     return(
         <div className={styles.container}>
@@ -75,17 +52,7 @@ export default function Quiz() {
                         </li>
                     ))}
                     {checked ? (<button onClick={nextQuestion} className={styles.btn}>{activeQuestion === question.length - 1 ? 'Finish' : 'Next'}</button>) : (<button onClick={nextQuestion} disabled className={styles.btnDisabled}>{''}{activeQuestion === question.length - 1 ? 'Finish' : 'Next'}</button>)}
-                </div>) : (
-                <div className={styles.quizContainer}>
-                    <h3>Results</h3>
-                    <h3>Overall {(result.score /25) * 100}%</h3>
-                    <p>Total questions: <span>{questions.length}</span></p>
-                    <p>Total score: <span>{result.score}</span></p>
-                    <p>Correct answers: <span>{result.correctAnswers}</span></p>
-                    <p>Wrong answers: <span>{result.wrongAnswers}</span></p>
-                    <button onClick={()=> window.location.reload()}>Restart</button>
-                </div>
-                )}
+                </div>) : (<div className={styles.quizContainer}></div>)}
             </div>
         </div>
     )

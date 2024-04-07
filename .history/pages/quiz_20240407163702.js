@@ -80,10 +80,7 @@ export default function Quiz() {
                     <h3>Results</h3>
                     <h3>Overall {(result.score /25) * 100}%</h3>
                     <p>Total questions: <span>{questions.length}</span></p>
-                    <p>Total score: <span>{result.score}</span></p>
-                    <p>Correct answers: <span>{result.correctAnswers}</span></p>
-                    <p>Wrong answers: <span>{result.wrongAnswers}</span></p>
-                    <button onClick={()=> window.location.reload()}>Restart</button>
+                    <p>Total score: <span>{questions.length}</span></p>
                 </div>
                 )}
             </div>
