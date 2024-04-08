@@ -1,7 +1,6 @@
 :root {
-    --white: #eee;
-    --black: #000;
-    --light-green: #B4E88C;
+  --white: #eee;
+  --black: #000925;
 }
 
 * {
@@ -31,6 +30,7 @@ li {
     margin: 9px 0;
     padding: 16px 8px;
     color: #000105;
+    border: 1px solid lightgray;
 }
 
 .liHover:hover {

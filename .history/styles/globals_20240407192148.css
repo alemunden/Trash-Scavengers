@@ -1,7 +1,6 @@
 :root {
-    --white: #eee;
-    --black: #000;
-    --light-green: #B4E88C;
+  --white: #eee;
+  --black: #000925;
 }
 
 * {
@@ -25,12 +24,17 @@ h3 {
     font-size: 1.8rem;
 }
 
+.btn-disabled {
+    background-color: lightgray;
+}
+
 li {
     list-style-type: none;
     cursor: pointer;
     margin: 9px 0;
     padding: 16px 8px;
     color: #000105;
+    border: 1px solid lightgray;
 }
 
 .liHover:hover {
