@@ -1,0 +1,14 @@
+:root {
+    --white: #eee;
+    --black: #000;
+    --light-green: #B4E88C;
+}
+
+html, body {
+    overflow-x: hidden;
+    background-color: var(--white);
+  }
+
+main {
+    padding: 1rem;
+  }

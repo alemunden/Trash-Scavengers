@@ -1,0 +1,44 @@
+:root {
+    --white: #eee;
+    --black: #000;
+    --light-green: #B4E88C;
+    --light-blue: #9EBAE5;
+    --light-gray: #c5c5c5;
+    --light-yellow: #F3CD70;
+    --medium-green: #429600;
+    --gold: #ED9F26;
+
+}
+
+html, body {
+    overflow-x: hidden;
+    background-color: var(--white);
+  }
+
+main {
+    padding: 1rem;
+  }
+
+li {
+    list-style-type: none;
+    cursor: pointer;
+    margin: 1rem;
+    padding: 0.5rem;
+    color: #000105;
+    background-color: var(--light-blue);
+    border-radius: 1rem;
+    border-bottom: 6px solid #7893bb;
+    font-family: "Righteous", sans-serif;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+.liHover:hover {
+    background-color: #7893bb;
+    columns: #fff;
+}
+
+.liSelected {
+    color: #fff;
+    background-color: #000925;
+}

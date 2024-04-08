@@ -1,0 +1,41 @@
+.li {
+    list-style-type: none;
+    cursor: pointer;
+    margin: 9px 0;
+    padding: 16px 8px;
+    color: #000105;
+    background-color: var(--light-blue);
+  }
+
+.liHover:hover {
+    background-color: #d8d8d8;
+    columns: #fff;
+}
+
+.liSelected {
+    color: #fff;
+    background-color: #000925;
+}
+
+.container {
+    max-width: 740px;
+    margin: auto;
+    padding: 1rem;
+    background-color: var(--light-green);
+    border-radius: 2rem;
+    height: 93vh;
+}
+
+.quizContainer {
+    padding: 1rem;
+    margin-top: 2rem;
+    border-radius: 4px;
+}
+
+.container p {
+    padding: 8px 0;
+}
+
+.btnDisabled {
+    background-color: lightgray;
+}

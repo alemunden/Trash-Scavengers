@@ -1,0 +1,23 @@
+:root {
+    --white: #eee;
+    --black: #000;
+    --light-green: #B4E88C;
+    --light-blue: #9EBAE5;
+}
+
+html, body {
+    overflow-x: hidden;
+    background-color: var(--white);
+  }
+
+main {
+    padding: 1rem;
+  }
+
+li {
+    list-style-type: none;
+    cursor: pointer;
+    margin: 9px 0;
+    padding: 16px 8px;
+    color: #000105;
+  }

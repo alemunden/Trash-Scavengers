@@ -1,0 +1,10 @@
+.button {
+    padding: 0.5rem;
+    border-radius: 2rem;
+    width: 18rem;
+    margin-top: 12px;
+    font-size: 2rem;
+    color: var(--black);
+    font-family: "Righteous", sans-serif;
+    border: none;
+}

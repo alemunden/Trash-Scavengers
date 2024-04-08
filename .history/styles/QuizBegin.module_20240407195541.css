@@ -1,0 +1,21 @@
+.background {
+    background-color: var(--light-green);
+    height: 96vh;
+    border-radius: 2rem;
+}
+
+.main {
+    padding: 1rem; 
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.quizHeader {
+    font-family: "Righteous", sans-serif;
+    text-align: center;
+}
