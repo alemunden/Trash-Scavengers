@@ -14,14 +14,12 @@ export default function QuizBegin() {
                 <Image src={'/scrappy.svg'} width={175} height={175} alt='A vector cartoon drawing of a raccoon head.'/>
                 <h1 className={styles.quizHeader}>Trash <br/>Scavenger</h1>
                 <Link href='/quiz'>
-                  <Button buttonText={'Play'} bgColor="#56B847" borderColor="#0B7908" tabIndex='1'/>
+                    <Button buttonText={'Play'} bgColor="#56B847" borderColor="#0B7908"/>
                 </Link>
-                <Link href='/QuizTutorial'>
-                  <Button buttonText={'Tutorial'} bgColor="#3C8DEE" tabIndex='2'/>
-                </Link>
-                <Image src={'/TrashBagFish.svg'} width={129} height={72} alt='A vector icon of a trash bag surrounded by a fish skeleton on both sides.'/>
+                <Button buttonText={'Tutorial'} bgColor="#3C8DEE"/>
+                <Image src={'/TrashBagFish.svg'} width={129} height={72}/>
                 <Link href='/home'>
-                  <Button buttonText={'Home'} bgColor="#F2CE73" tabIndex='3'/>
+                  <Button buttonText={'Home'} bgColor="#F2CE73"/>
                 </Link>
             </div>
         </div>

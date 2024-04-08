@@ -1,0 +1,12 @@
+.welcomeGameContainer {
+    background-color: var(--light-green);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.welcomeHeader {
+    color: var(--black);
+    font-family: "Righteous", sans-serif;
+    text-align: center;
+}

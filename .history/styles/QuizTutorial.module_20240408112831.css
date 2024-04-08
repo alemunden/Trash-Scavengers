@@ -1,0 +1,4 @@
+.welcomeGameContainer {
+    background-color: var(--light-green);
+    display: flex;
+}

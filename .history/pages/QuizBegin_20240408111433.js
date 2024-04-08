@@ -17,11 +17,11 @@ export default function QuizBegin() {
                   <Button buttonText={'Play'} bgColor="#56B847" borderColor="#0B7908" tabIndex='1'/>
                 </Link>
                 <Link href='/QuizTutorial'>
-                  <Button buttonText={'Tutorial'} bgColor="#3C8DEE" tabIndex='2'/>
+                  <Button buttonText={'Tutorial'} bgColor="#3C8DEE"/>
                 </Link>
                 <Image src={'/TrashBagFish.svg'} width={129} height={72} alt='A vector icon of a trash bag surrounded by a fish skeleton on both sides.'/>
                 <Link href='/home'>
-                  <Button buttonText={'Home'} bgColor="#F2CE73" tabIndex='3'/>
+                  <Button buttonText={'Home'} bgColor="#F2CE73"/>
                 </Link>
             </div>
         </div>

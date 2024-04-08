@@ -1,0 +1,65 @@
+.containers {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.welcomeGameContainer {
+    background-color: var(--light-green);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 3rem;
+}
+
+.welcomeHeader {
+    color: var(--black);
+    font-family: "Righteous", sans-serif;
+    text-align: center;
+}
+
+.answerRightContainer {
+    background-color: var(--light-gray);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 3rem;
+    padding-bottom: 2rem;
+}
+
+.answerRightHeader {
+    color: var(--black);
+    font-family: "Righteous", sans-serif;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.answerRightIconsContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+}
+
+.answerWrongContainer {
+    background-color: var(--light-gray);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 3rem;
+    padding-bottom: 2rem;
+}
+
+.answerWrongHeader {
+    color: var(--black);
+    font-family: "Righteous", sans-serif;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.answerWrongIconsContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+}

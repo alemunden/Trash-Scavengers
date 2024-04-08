@@ -76,9 +76,7 @@ export default function Quiz() {
                         <li
                         key={idx} 
                         onClick={() => onAnswerSelected(answer, idx)}
-                        className={selectedAnswerIndex === idx ? 'liSelected' : 'liHover'}
-                        tabIndex='1'    
-                        >
+                        className={selectedAnswerIndex === idx ? 'liSelected' : 'liHover'}>
                             <span>{answer}</span>
                         </li>
                     ))}
@@ -86,7 +84,7 @@ export default function Quiz() {
                 </div>) : (
                 <div className={styles.quizContainer}>
                     <Image src={'/scrappy.svg'} width={175} height={175} alt='A vector cartoon drawing of a raccoon head.'/>
-                    <h3 className={styles.resultsHeader} tabIndex='2'>Great Job!</h3>
+                    <h3 className={styles.resultsHeader}>Great Job!</h3>
                     <div className={styles.circlesContainer}>
                         <div className={styles.correctAnswersContainer}>
                             <p className={styles.correctAnswers}><span>{result.correctAnswers}/{questions.length}</span></p>
@@ -97,12 +95,12 @@ export default function Quiz() {
                     </div>
                     <p className={styles.sammyText}>Take care of Sammy using<br/>your coins!</p>
                     <Image src={'/arrow.svg'} width={18} height={21} alt='An arrow icon'/>
-                    <Button buttonText={'Store'} bgColor="#9EBAE5" tabIndex='3'/>
+                    <Button buttonText={'Store'} bgColor="#9EBAE5"/>
                 </div>
                 )}
             </div>
             <Link href={'/QuizBegin'}>
-                <Button buttonText={'Main Menu'} bgColor="#F2CE73" tabIndex='4'/>
+                <Button buttonText={'Main Menu'} bgColor="#F2CE73"/>
             </Link>
         </div>
     )
