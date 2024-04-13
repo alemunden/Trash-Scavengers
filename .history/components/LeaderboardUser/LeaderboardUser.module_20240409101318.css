@@ -1,0 +1,12 @@
+.userContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: var(--light-gray);
+    border-radius: 1rem;
+}
+
+.username {
+    font-size: 1.3rem;
+}

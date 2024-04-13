@@ -7,7 +7,6 @@
     border-radius: 1rem;
     padding-top: 1rem;
     position: sticky;
-    bottom: 0;
 }
 
 .navBarItem {
@@ -24,5 +23,4 @@
 .navBarLabel {
     font-size: 1rem;
     font-family: "Roboto", sans-serif;
-    font-weight: medium;
 }

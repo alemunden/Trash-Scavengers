@@ -1,0 +1,20 @@
+.userContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    background-color: var(--light-gray);
+    border-radius: 1rem;
+    align-items: center;
+}
+
+.username {
+    font-size: 1.3rem;
+    font-family: "Righteous", sans-serif;
+}
+
+.score {
+    font-size: 1.3rem;
+    font-family: "Righteous", sans-serif;
+}

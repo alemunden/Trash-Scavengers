@@ -26,7 +26,7 @@ export default function Leaderboard() {
                     <h3>Username</h3>
                 </div>
             </div>
-            <div className={styles.leaderboard}>
+            <div>
                 <LeaderboardUser username={'username'} score={'20'}/>
                 <LeaderboardUser username={'username'} score={'20'}/>
                 <LeaderboardUser username={'username'} score={'20'}/>

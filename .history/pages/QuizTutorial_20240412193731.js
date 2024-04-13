@@ -15,7 +15,7 @@ export default function QuizTutorial() {
                 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
                 <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet"/>
                 <Image src={'/scrappy.svg'} width={175} height={175} alt='A vector cartoon drawing of a raccoon head.'/>
-                <h1 className={styles.welcomeHeader}>{welcomeHeader}</h1>
+                <h1 className={styles.welcomeHeader}>Welcome to the Game!</h1>
             </div>
             <div className={styles.answerRightContainer}>
                 <h2 className={styles.answerRightHeader}>Answer questions right:<br/>advance + gain currency!</h2>

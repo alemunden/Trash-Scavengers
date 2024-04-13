@@ -1,0 +1,15 @@
+.podiumContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.firstPlace {
+    display: flex;
+    flex-direction: column;
+}
+
+.lowerPodium {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

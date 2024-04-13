@@ -32,6 +32,7 @@ export default function Leaderboard() {
                 <LeaderboardUser username={'username'} score={'20'}/>
                 <LeaderboardUser username={'username'} score={'20'}/>
                 <LeaderboardUser username={'username'} score={'20'}/>
+                <LeaderboardUser username={'username'} score={'20'}/>
             </div>
         </main>
     )
