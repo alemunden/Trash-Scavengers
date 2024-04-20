@@ -1,5 +1,5 @@
 :root {
-    --white: #eee;
+    --white: #FFFFFF;
     --black: #000;
     --light-green: #B4E88C;
     --light-blue: #9EBAE5;
@@ -43,4 +43,73 @@ li {
 .liSelected {
     color: #fff;
     background-color: #000925;
+}
+
+.homePageCard {
+  margin-left: -5%;
+  margin-top: 48%;
+}
+
+.searchBar {
+  margin-left: -5%;
+  margin-bottom: -48%;
+}
+
+.logInAndSettings {
+  margin-left: 63%;
+  margin-right: -5%;
+  margin-top: 8%;
+}
+
+.dateIndex {
+  font-family: 'Righteous';
+  margin-bottom: -18%;
+  margin-top: 8%;
+}
+
+.searchBarInfo {
+  margin-left: -5%;
+  margin-top: -0.1%;
+}
+
+.logInSettingsInfo {
+  margin-left: 63%;
+  margin-right: -5%;
+  padding-left: 19px;
+  padding-bottom: -10px;
+  margin-top: 8%;
+}
+
+.infoCard {
+  margin-left: -5%;
+}
+
+.logInSettingsDepots {
+  margin-left: 64%;
+  margin-right: -5%;
+  padding-left: 9px;
+  margin-top: 8%;
+}
+
+.searchBarDepots {
+  margin-left: -5%;
+}
+
+.depotsCard {
+  margin-left: -5%;
+}
+
+.logInSettingsYourDepots {
+  margin-left: 50%;
+  margin-right: -5%;
+  padding-left: 65px;
+  margin-top: 8%;
+}
+
+.searchBarYourDepots {
+  margin-left: -5%;
+}
+
+.yourDepotsCard {
+  margin-left: -5%;
 }
