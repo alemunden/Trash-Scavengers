@@ -1,0 +1,12 @@
+.buttons {
+    display: flex;
+    gap: 4rem;
+    position: absolute;
+    top: 22rem;
+    left: 2.3rem;
+}
+
+.statusBars {
+    display: flex;
+    position: absolute;
+}

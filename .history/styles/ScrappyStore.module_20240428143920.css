@@ -1,0 +1,9 @@
+.store {
+    display: flex;
+    justify-content: center;
+}
+
+.foodItems {
+    position: absolute;
+    top: 10rem;
+}

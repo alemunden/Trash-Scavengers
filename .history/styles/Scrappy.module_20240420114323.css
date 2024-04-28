@@ -1,0 +1,6 @@
+.buttons {
+    display: flex;
+    gap: 3rem;
+    position: absolute;
+    top: 22rem;
+}
