@@ -8,8 +8,8 @@
     padding-top: 1rem;
     position: sticky;
     bottom: 0;
+    width: 100%;
     margin: auto;
-    align-items: center;
 }
 
 .navBarItem {
@@ -20,7 +20,6 @@
 }
 
 .navBarImage {
-    align-self: center;
 }
 
 .navBarLabel {
@@ -33,7 +32,6 @@
     text-decoration: none;
     color: var(--black);
     align-self: center;
-    padding: 0;
 }
 
 .link:visited {

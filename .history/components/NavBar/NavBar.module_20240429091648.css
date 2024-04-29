@@ -8,8 +8,8 @@
     padding-top: 1rem;
     position: sticky;
     bottom: 0;
+    width: 100%;
     margin: auto;
-    align-items: center;
 }
 
 .navBarItem {

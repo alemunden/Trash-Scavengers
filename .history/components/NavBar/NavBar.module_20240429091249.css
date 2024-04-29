@@ -8,8 +8,6 @@
     padding-top: 1rem;
     position: sticky;
     bottom: 0;
-    margin: auto;
-    align-items: center;
 }
 
 .navBarItem {
@@ -32,8 +30,6 @@
 .link {
     text-decoration: none;
     color: var(--black);
-    align-self: center;
-    padding: 0;
 }
 
 .link:visited {

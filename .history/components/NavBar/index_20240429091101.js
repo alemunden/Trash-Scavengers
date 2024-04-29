@@ -16,25 +16,25 @@ export default function NavBar() {
                     </Link>
                 </div>
                 <div className={styles.navBarItem}>
-                    <Link href='/Leaderboard' className={styles.link}>
+                    <Link href='/Leaderboard'>
                         <Image src={'/lb-icon.svg'} height={30} width={30} className={styles.navBarImage}/>
                         <p className={styles.navBarLabel}>LB</p>
                     </Link>
                 </div>
                 <div className={styles.navBarItem}>
-                    <Link href='/Depots' className={styles.link}>
+                    <Link href='/Depots'>
                         <Image src={'/depots-icon.svg'} height={30} width={30} className={styles.navBarImage}/>
                         <p className={styles.navBarLabel}>Depots</p>
                     </Link>
                 </div>
                 <div className={styles.navBarItem}>
-                    <Link href='/Info' className={styles.link}>
+                    <Link href='/Info'>
                         <Image src={'/recycle-icon.svg'} height={30} width={30} className={styles.navBarImage}/>
                         <p className={styles.navBarLabel}>Info</p>
                     </Link>
                 </div>
                 <div className={styles.navBarItem}>
-                    <Link href='/QuizBegin' className={styles.link}>
+                    <Link href='/QuizBegin'>
                         <Image src={'/raccoon-icon.svg'} height={30} width={30} className={styles.navBarImage}/>
                         <p className={styles.navBarLabel}>Game</p>
                     </Link>

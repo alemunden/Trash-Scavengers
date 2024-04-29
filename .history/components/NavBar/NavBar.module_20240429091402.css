@@ -8,7 +8,7 @@
     padding-top: 1rem;
     position: sticky;
     bottom: 0;
-    margin: auto;
+    width: 100%;
     align-items: center;
 }
 
@@ -33,7 +33,6 @@
     text-decoration: none;
     color: var(--black);
     align-self: center;
-    padding: 0;
 }
 
 .link:visited {
