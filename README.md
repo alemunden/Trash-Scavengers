@@ -7,3 +7,6 @@
 - Behance
 ## Packages
 - Next.js
+- react-chartjs-2
+## URL
+https://trash-scavengers.vercel.app/
