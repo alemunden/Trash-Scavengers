@@ -53,7 +53,7 @@ export default function VerticalChart() {
     }, [])
     return(
         <>
-            <Bar data={chartData} options={chartOptions} style={{width: '414px', height: '600px'}} />
+            <Bar data={chartData} options={chartOptions} style={{width: '414px', height: '400px'}} />
         </>
     )
 }

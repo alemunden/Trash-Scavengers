@@ -1,6 +1,7 @@
 import styles from '@/styles/ScrappyStore.module.css'
 import Image from 'next/image'
-import { storeItems } from '@/data/storeItems'
+import Popup from 'reactjs-popup';
+import 'reactjs-popup/dist/index.css';
 
 export default function ScrappyStore() {
     return(

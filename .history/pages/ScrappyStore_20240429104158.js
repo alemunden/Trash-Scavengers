@@ -1,6 +1,5 @@
 import styles from '@/styles/ScrappyStore.module.css'
 import Image from 'next/image'
-import { storeItems } from '@/data/storeItems'
 
 export default function ScrappyStore() {
     return(

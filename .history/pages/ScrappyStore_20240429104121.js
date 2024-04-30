@@ -1,13 +1,19 @@
 import styles from '@/styles/ScrappyStore.module.css'
 import Image from 'next/image'
-import { storeItems } from '@/data/storeItems'
+import Popup from 'reactjs-popup';
+import 'reactjs-popup/dist/index.css';
 
 export default function ScrappyStore() {
     return(
         <>
         <div className={styles.store}>
             <div className={styles.foodItems}>
-                <Image src={'/storeitem.png'} width={153.6} height={73.1}/>
+                <Popup trigger=
+                    {<Image src={'/storeitem.png'} width={153.6} height={73.1}/>}
+                    position="right center">
+                    <div>GeeksforGeeks</div>
+                    <button>Click here</button>
+                </Popup>
                 <Image src={'/storeitem.png'} width={153.6} height={73.1}/>
                 <Image src={'/storeitem.png'} width={153.6} height={73.1}/>
                 <Image src={'/storeitem.png'} width={153.6} height={73.1}/>
