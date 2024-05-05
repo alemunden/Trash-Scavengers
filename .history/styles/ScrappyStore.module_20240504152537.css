@@ -1,0 +1,41 @@
+.store {
+    display: flex;
+    justify-content: center;
+}
+
+.coinCount {
+    position: absolute;
+    top: 5rem;
+    font-family: "Righteous", sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.foodItems {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    top: 15rem;
+    left: 3.2rem;
+    column-gap: 0rem;
+    row-gap: 2rem;
+}
+
+.toyItems {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    top: 38.2rem;
+    left: 3.2rem;
+    column-gap: 0rem;
+    row-gap: 2rem;
+}
+
+#backButton {
+    position: absolute;
+    top: 0;
+}

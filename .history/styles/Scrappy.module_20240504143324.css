@@ -1,0 +1,33 @@
+.coinCount {
+    position: absolute;
+    right: 0.7rem;
+    top: 0.3rem;
+    font-family: "Righteous", sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.buttons {
+    display: flex;
+    gap: 4rem;
+    position: absolute;
+    top: 22rem;
+    left: 2.3rem;
+}
+
+.statusBars {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    position: absolute;
+    top: 5rem;
+    left: 1.5rem;
+}
+
+.storeButton {
+    position: absolute;
+    top: 14rem;
+    left: 8rem;
+}
