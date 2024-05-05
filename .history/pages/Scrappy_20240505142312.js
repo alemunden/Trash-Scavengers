@@ -3,10 +3,17 @@ import styles from '@/styles/Scrappy.module.css'
 import Image from "next/image"
 import Link from "next/link"
 import { useCoins } from "@/utils/coins"
+import FeedMenu from "@/components/FeedMenu"
 
-export default function Scrappy() {
+export default function Scrappy(result) {
 
     const {coins, setCoins, buy} = useCoins(15);
+
+    const feed = (a) => {
+        return(
+            <FeedMenu/>
+        )
+      }
 
     return(
         <>
@@ -28,12 +35,8 @@ export default function Scrappy() {
                     </Link>
                 </div>
                 <div className={styles.buttons}>
-                    <Link href={'/Feed'}>
-                        <Image src={'/feedbutton.png'} width={136.35} height={60.75}/>
-                    </Link>
-                    <Link href='/Toys'>
-                        <Image src={'/toysbutton.png'} width={136.35} height={60.75}/>
-                    </Link>
+                    <Image src={'/feedbutton.png'} width={136.35} height={60.75} onClick={() => feed() }/>
+                    <Image src={'/toysbutton.png'} width={136.35} height={60.75}/>
                 </div>
                 <Image src={'/scrappybackground.png'} width={414} height={896}/>
             </div>

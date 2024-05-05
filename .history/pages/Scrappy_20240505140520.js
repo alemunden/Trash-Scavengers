@@ -4,7 +4,7 @@ import Image from "next/image"
 import Link from "next/link"
 import { useCoins } from "@/utils/coins"
 
-export default function Scrappy() {
+export default function Scrappy(result) {
 
     const {coins, setCoins, buy} = useCoins(15);
 
@@ -28,12 +28,8 @@ export default function Scrappy() {
                     </Link>
                 </div>
                 <div className={styles.buttons}>
-                    <Link href={'/Feed'}>
-                        <Image src={'/feedbutton.png'} width={136.35} height={60.75}/>
-                    </Link>
-                    <Link href='/Toys'>
-                        <Image src={'/toysbutton.png'} width={136.35} height={60.75}/>
-                    </Link>
+                    <Image src={'/feedbutton.png'} width={136.35} height={60.75}/>
+                    <Image src={'/toysbutton.png'} width={136.35} height={60.75}/>
                 </div>
                 <Image src={'/scrappybackground.png'} width={414} height={896}/>
             </div>

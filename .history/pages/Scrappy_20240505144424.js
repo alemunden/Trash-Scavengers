@@ -31,9 +31,7 @@ export default function Scrappy() {
                     <Link href={'/Feed'}>
                         <Image src={'/feedbutton.png'} width={136.35} height={60.75}/>
                     </Link>
-                    <Link href='/Toys'>
-                        <Image src={'/toysbutton.png'} width={136.35} height={60.75}/>
-                    </Link>
+                    <Image src={'/toysbutton.png'} width={136.35} height={60.75}/>
                 </div>
                 <Image src={'/scrappybackground.png'} width={414} height={896}/>
             </div>

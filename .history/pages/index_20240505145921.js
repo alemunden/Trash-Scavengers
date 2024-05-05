@@ -6,7 +6,6 @@ import NavBar from "@/components/NavBar";
 
 export default function Home() {
   return (
-    <>
       <main>
         <div class="dateIndex">
           <h2>Thursday Apr 18</h2>
@@ -23,6 +22,5 @@ export default function Home() {
         </div>
       </main>
       <NavBar/>
-    </>
   );
 }
