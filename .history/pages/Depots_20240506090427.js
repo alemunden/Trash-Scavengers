@@ -18,9 +18,7 @@ export default function Depots() {
             <div class="depotsCard">
                 <Image src={'/MiaCards/Asset 2.png'} width={422} height={630}/>
                 <div class="becDepotPage">
-                    <Link href="/yourDepots">
-                        <h4 tabIndex='9'>Burnaby Eco Center</h4>
-                    </Link>
+                    <h4 tabIndex='9'>Burnaby Eco Center</h4>
                 </div>    
             </div>
         </main>

@@ -23,21 +23,21 @@ export default function Scrappy() {
                     <Image src={'/happinessbar.png'} height={52.86} width={360.57}/>
                 </div>
                 <div className={styles.storeButton}>
-                    <Link href={'/ScrappyStore'} tabIndex="6">
+                    <Link href={'/ScrappyStore'} tabIndex="1">
                         <Image src={'/storebutton.png'} width={153.6} height={73.1} />
                     </Link>
                 </div>
                 <div className={styles.buttons}>
-                    <Link href={'/Feed'} tabIndex="7">
+                    <Link href={'/Feed'} tabIndex="2">
                         <Image src={'/feedbutton.png'} width={136.35} height={60.75}/>
                     </Link>
-                    <Link href='/Toys' tabIndex="8">
+                    <Link href='/Toys' tabIndex="3">
                         <Image src={'/toysbutton.png'} width={136.35} height={60.75}/>
                     </Link>
                 </div>
                 <Image src={'/scrappybackground.png'} width={414} height={896}/>
             </div>
-            <NavBar tabIndex="1"/>
+            <NavBar/>
         </>
     )
 }

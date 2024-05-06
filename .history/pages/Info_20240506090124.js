@@ -10,11 +10,11 @@ export default function Info() {
         <>
         <main>
         <div class="logInSettingsInfo">
-        <Image src={'/MiaCards/LogIn.png'} width={100} height={38} tabIndex="6"/>
-        <Image src={'/MiaCards/SettingsIcon.png'} width={40} height={38} tabIndex="7"/>
+        <Image src={'/MiaCards/LogIn.png'} width={100} height={38}/>
+        <Image src={'/MiaCards/SettingsIcon.png'} width={40} height={38}/>
        </div>
        <div class="searchBarInfo">
-          <Image src={'/MiaCards/SearchBar.png'} width={422} height={80} tabIndex="8"/>
+          <Image src={'/MiaCards/SearchBar.png'} width={422} height={80}/>
         </div>
         <div class="infoCard">
             <Image src={'/MiaCards/Asset 6.png'} width={422} height={1550}/>
@@ -23,7 +23,7 @@ export default function Info() {
             <VerticalChart/>
         </div>
         </main>
-        <NavBar tabIndex="1"/>
+        <NavBar/>
         </>
     )
 }

@@ -23,7 +23,7 @@ export default function Info() {
             <VerticalChart/>
         </div>
         </main>
-        <NavBar tabIndex="1"/>
+        <NavBar/>
         </>
     )
 }

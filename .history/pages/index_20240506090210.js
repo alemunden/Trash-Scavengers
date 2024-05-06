@@ -22,7 +22,7 @@ export default function Home() {
           <Image src={'/MiaCards/Asset 1.png'} width={410} height={630}/>
         </div>
       </main>
-      <NavBar tabIndex="1"/>
+      <NavBar/>
     </>
   );
 }
