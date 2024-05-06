@@ -1,0 +1,10 @@
+.feedImage {
+    position: absolute;
+    bottom: 0;
+}
+
+.foodButtons {
+    position: absolute;
+    top: 5rem;
+    left: 3rem;
+}

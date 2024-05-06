@@ -1,0 +1,10 @@
+.toysImage {
+    position: absolute;
+    top: 15rem;
+}
+
+.toysButtons {
+    position: absolute;
+    top: 5rem;
+    left: 2rem;
+}

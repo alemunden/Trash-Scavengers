@@ -1,0 +1,26 @@
+.store {
+    display: flex;
+    justify-content: center;
+}
+
+.foodItems {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    top: 15.6rem;
+    left: 3.2rem;
+    column-gap: 0rem;
+    row-gap: 2rem;
+}
+
+.toyItems {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    top: 39rem;
+    left: 3.2rem;
+    column-gap: 0rem;
+    row-gap: 2rem;
+}

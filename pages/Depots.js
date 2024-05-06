@@ -21,11 +21,8 @@ export default function Depots() {
             <h4><Link>Burnaby Eco Center</Link></h4>
         </div>    
         </div>
-        
-        <div class="depotsNavBar">
-            <NavBar/>
-        </div>
         </main>
+        <NavBar/>
         </>
     )
 }
