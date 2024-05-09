@@ -1,0 +1,16 @@
+.main {
+    background-color: var(--light-green);
+    display: flex;
+    justify-content: center;
+}
+
+.textContainer {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(180deg, rgba(185, 240, 185,0.5) 50%, rgba(145, 217, 145,0.5) 100%);
+    border-radius: 1rem;
+    border-top: 0.5rem solid rgba(255, 159, 159, 0.5);
+    border-bottom: 0.5rem solid rgba(26, 0, 0, 0.8);
+    box-shadow: 3rem 1rem 1rem #0b0000;
+}

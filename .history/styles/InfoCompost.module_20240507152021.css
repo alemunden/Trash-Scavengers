@@ -1,0 +1,46 @@
+.main {
+    background-color: #c5ebc5;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title {
+    font-family: "Righteous", sans-serif;
+    display: flex;
+}
+
+.textContainer {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(180deg, rgba(185, 240, 185,0.5) 50%, rgba(35, 115, 35, 0.5) 100%);
+    border-radius: 1rem;
+    border-top: 0.5rem solid rgba(236, 251, 236, 0.5);
+    border-bottom: 0.5rem solid rgba(16, 78, 16, 0.8);
+}
+
+.description {
+    font-family: "Righteous", sans-serif;
+    font-size: 1.1rem;
+}
+
+.listTitle {
+    font-family: "Righteous", sans-serif;
+    font-size: 1.7rem;
+}
+
+.listSection {
+    font-family: "Righteous", sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.listItem {
+    font-family: "Righteous", sans-serif;
+    font-size: 1.3rem;
+}

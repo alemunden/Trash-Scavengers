@@ -1,0 +1,36 @@
+import styles from "@/styles/InfoCompost.module.css";
+import NavBar from "@/components/NavBar";
+
+export default function InfoCompost() {
+    return(
+        <>
+        <link rel="preconnect" href="https://fonts.googleapis.com"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+        <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet"/>
+        <div className={styles.main}>
+            <div className={styles.title}>
+                <h1>Compost / Green Bin</h1>
+            </div>
+            <div className={styles.textContainer}>
+                    <p>All compost products belong in the compost, better known as the "green bin" in British Columbia's recycling collection program. Using your green bin to dispose of compost does a huge part in helping the environment by reducing greenhouse gas emissions and making sure that your food waste is going back into the environment.</p>
+                    <div>
+                        <h2 className={styles.listTitle}>Items that go into the green bin:</h2>
+                        <dl>
+                            <dt className={styles.listSection}>Food Waste</dt>
+                                <dd>Bread, pasta, grains</dd>
+                                <dd>Dairy products</dd>
+                                <dd>Fruits and vegetables</dd>
+                                <dd>Plate scrapings or leftovers</dd>
+                            <dt className={styles.listSection}>Food-Soiled Paper</dt>
+                                <dd>Empty cereal boxes</dd>
+                                <dd>Paper plates and dishes</dd>
+                                <dd>Pizza boxes with food residue</dd>
+                                <dd>Paper napkins</dd>
+                        </dl>
+                    </div>
+            </div>
+        </div>
+        <NavBar/>
+        </>
+    )
+}

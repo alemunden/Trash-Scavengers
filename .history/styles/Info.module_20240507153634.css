@@ -1,0 +1,10 @@
+.verticalChart {
+    height: 400px;
+  }
+
+.readMoreButton {
+    width: 6rem;
+    padding: 0.5rem;
+    font-family: "Righteous", sans-serif;
+    font-size: 2rem;
+}
