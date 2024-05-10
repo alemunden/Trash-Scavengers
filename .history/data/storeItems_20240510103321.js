@@ -46,15 +46,7 @@ export const storeItems = {
         {
             id: 7,
             props: [{
-                name: 'Ball of Yarn',
-                cost: 5
-            }]
-        },
-        {
-            id: 8,
-            props: [{
-                name: 'Rubiks Cube',
-                cost: 5
+                name: 'Ball of Yarn'
             }]
         }
     ]

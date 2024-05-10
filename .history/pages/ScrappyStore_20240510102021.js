@@ -26,13 +26,9 @@ export default function ScrappyStore() {
                 <Image src={'/storeitem.png'} width={153.6} height={73.1} onClick={buy} tabIndex="4"/>
             </div>
             <div className={styles.toyItems}>
-                <Image src={'/ballicon.svg'} width={61.47} height={54.21} className={styles.ball} onClick={buy}/>
                 <Image src={'/storeitem.png'} width={153.6} height={73.1} onClick={buy} tabIndex="6"/>
-                <Image src={'/rattleicon.svg'} width={60.7} height={61} className={styles.rattle} onClick={buy}/>
                 <Image src={'/storeitem.png'} width={153.6} height={73.1} onClick={buy} tabIndex="7"/>
-                <Image src={'/blanketicon.svg'} width={66.7} height={66.7} className={styles.blanket} onClick={buy}/>
                 <Image src={'/storeitem.png'} width={153.6} height={73.1} onClick={buy} tabIndex="8"/>
-                <Image src={'/rubikscubeicon.svg'} width={88.65} height={59.4} className={styles.rubikscube} onClick={buy}/>
                 <Image src={'/storeitem.png'} width={153.6} height={73.1} onClick={buy} tabIndex="9"/>
             </div>
             <Image src={'/storebackground.png'} width={343} height={881}/>

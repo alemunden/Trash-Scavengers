@@ -12,21 +12,22 @@ export const storeItems = {
             id: 2,
             props: [{
                 name: 'Banana',
-                cost: 5
+                cost: 4
             }]
         },
         {
-            id: 3,
-            props: [{
-                name: 'Sandwich',
-                cost: 5
+            id: [{3, 
+                props: [{
+                    name: 'Sandwich',
+                    cost: 10
+                }]
             }]
         },
         {
             id: 4,
             props: [{
                 name: 'Cookie',
-                cost: 5
+                cost: 7
             }]
         },
         {
@@ -40,21 +41,13 @@ export const storeItems = {
             id: 6,
             props: [{
                 name: 'Rattle',
-                cost: 5
+                cost: 4
             }]
         },
         {
             id: 7,
             props: [{
-                name: 'Ball of Yarn',
-                cost: 5
-            }]
-        },
-        {
-            id: 8,
-            props: [{
-                name: 'Rubiks Cube',
-                cost: 5
+                name: ''
             }]
         }
     ]

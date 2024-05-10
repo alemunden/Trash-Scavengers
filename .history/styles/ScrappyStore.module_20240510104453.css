@@ -75,24 +75,5 @@
 
 .ball {
     position: absolute;
-    top: 0.4rem;
-    left: 3rem;
-}
-
-.rattle {
-    position: absolute;
-    top: 0.3rem;
-    right: 6.3rem;
-}
-
-.blanket {
-    position: absolute;
-    top: 6.7rem;
-    left: 2.8rem;
-}
-
-.rubikscube {
-    position: absolute;
-    top: 6.9rem;
-    right: 5.5rem;
+    top: 0.5rem;
 }

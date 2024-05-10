@@ -53,8 +53,7 @@ export const storeItems = {
         {
             id: 8,
             props: [{
-                name: 'Rubiks Cube',
-                cost: 5
+                name: ''
             }]
         }
     ]

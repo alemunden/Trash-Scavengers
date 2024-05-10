@@ -81,18 +81,6 @@
 
 .rattle {
     position: absolute;
-    top: 0.3rem;
+    top: 0.4rem;
     right: 6.3rem;
-}
-
-.blanket {
-    position: absolute;
-    top: 6.7rem;
-    left: 2.8rem;
-}
-
-.rubikscube {
-    position: absolute;
-    top: 6.9rem;
-    right: 5.5rem;
 }
