@@ -4,10 +4,13 @@
     justify-content: space-around;
     padding: 0.5rem;
     background-color: var(--light-gray);
-    border-radius: 1rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
     padding-top: 1rem;
     position: sticky;
-    margin-top: auto;
+    bottom: 0;
+    margin: auto;
+    align-items: center;
 }
 
 .navBarItem {
@@ -25,4 +28,15 @@
     font-size: 1rem;
     font-family: "Roboto", sans-serif;
     font-weight: medium;
+}
+
+.link {
+    text-decoration: none;
+    color: var(--black);
+    align-self: center;
+    padding: 0;
+}
+
+.link:visited {
+    color: var(--black);
 }
